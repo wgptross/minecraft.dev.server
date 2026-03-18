@@ -1,2 +1,5 @@
 # data gitignore
 data/
+
+# ignore .jar files in jar_apis
+jar_apis/*.jar
