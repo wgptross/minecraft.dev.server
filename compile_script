@@ -1,4 +1,5 @@
 #!/bin/bash
 #
-javac -cp "jar_apis/*" -d build/classes src/main/java/com/*/*/*.java
+javac -cp "jar_apis/*.jar" -d build/classes src/main/java/com/*/*/*.java
 jar cvf Plugin.jar -C build/classes/ .
+#vac -cp "jar_apis/paper-api.jar" -d build/classes src/main/java/com/wade/plugin/main.java
