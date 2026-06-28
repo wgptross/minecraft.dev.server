@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # API ENDPOINTS
-#https://artifactory.papermc.io/ui/native/universe/io/papermc/paper/paper-api/
-#https://artifactory.papermc.io/artifactory/universe/io/papermc/paper/paper-api/1.21.9-rc1-R0.1-SNAPSHOT/
+echo "#https://artifactory.papermc.io/ui/native/universe/io/papermc/paper/paper-api/"
+echo "https://artifactory.papermc.io/artifactory/universe/io/papermc/paper/paper-api/1.21.9-rc1-R0.1-SNAPSHOT/"
 
 
-wget https://artifactory.papermc.io/artifactory/universe/io/papermc/paper/paper-api/1.21.9-rc1-R0.1-SNAPSHOT/paper-api-1.21.9-rc1-R0.1-20250930.133904-13.jar
+wget https://artifactory.papermc.io/artifactory/universe/io/papermc/paper/paper-api/26.1.2.build.9-alpha/paper-api-26.1.2.build.9-alpha-javadoc.jaR
 
 mv *.jar jar_apis/
